@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="406" key="DIALOG_Y_ORIGIN"/>
+		<item value="1171" key="DIALOG_X_ORIGIN"/>
+		<item value="405" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="3000" key="selection"/>
+		<list key="findhistory">
+			<item value="3000"/>
+			<item value="s_bottom"/>
+			<item value="s_b"/>
+			<item value="s_"/>
+			<item value="printf"/>
+			<item value="step1"/>
+			<item value="conV"/>
+			<item value="s_intake"/>
+		</list>
+		<list key="replacehistory">
+			<item value="stick3."/>
+			<item value=""/>
+			<item value="conV"/>
+			<item value="jstick"/>
+			<item value="stick2."/>
+			<item value="stick1."/>
+			<item value="stick1"/>
+			<item value="Get"/>
+		</list>
+	</section>
+</section>

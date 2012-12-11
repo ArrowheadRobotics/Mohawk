@@ -1,0 +1,79 @@
+#include "MyRobot.h" // ADD INCLUDE FILES INTO MYROBOT.H, NOT HERE
+#include "socks.h"
+
+RobotDemo::RobotDemo(void) : cnt(1,2),  //encoder
+							 vi(1),  //victor
+							 pid(.5,0,0, &cnt, &vi) {  //PID
+	for(int i = 1; i <= 2; i++) 
+		sticks[i-1] = new Joystick(i);
+	for(int i = 1; i <= 4; i++) {
+		jags[i-1] = new CANJaguar(i);
+		jags[i-1]->SetExpiration(.1f);
+	}
+}
+
+void RobotDemo::Autonomous(void) {
+	// implement this
+	float kp = .5;  //proportion constant
+	float ks = .5;  //integral constant
+}
+//NATHAN'S CODE
+//TODO update set points
+//TODO use function
+//TODO tweak constants
+float RobotDemo::Trap(float goal , float current_rate,float area /*for integral*/,float last_set){
+	float ret= 0;  //return
+	error = goal - current_rate;
+	
+	////////////////P//////////////////////////
+	
+	float p = 0;  //output p value
+	p = goal * last_set / current_rate;  //proportion
+	
+	/////////////////I/////////////////////////
+	
+	float i = 0;
+	area = area + current_rate;  //update area
+	i = -area / cnt;  //integral
+	
+	//////////////////END////////////////////
+	
+	ret = kp * p + ki * i;  //return value
+	return ret;
+	}
+
+void RobotDemo::OperatorControl(void) {
+
+	cnt.Start();  //start the encoder
+
+	cnt.SetDistancePerPulse(1);
+	
+	//pid.Enable();
+	//pid.SetContinuous(true);
+	while (IsOperatorControl())
+	{
+		//pid.SetSetpoint(sticks[0]->GetThrottle()*000);	
+		//vi.Set(sticks[1]->GetThrottle());sti
+		//vi.Set(trap(sticks[0]->GetThrottle,cnt.GetRate()/1800));
+		
+			//	sticks[0]->GetThrottle(),sticks[1]->GetThrottle(),pid.GetSetpoint(),pid.GetError());
+		//pid.SetPID(sticks[1]->GetThrottle(),0,0);
+//			jags[0]->Set(sticks[0]->GetY());
+//			jags[1]->Set(sticks[0]->GetY());
+//			jags[2]->Set(-sticks[1]->GetY());
+//			jags[3]->Set(-sticks[1]->GetY());
+//			//myRobot.ArcadeDrive(stick); // drive with arcade style (use right stick)
+//			Wait(0.005);				// wait for a motor update time
+//			
+		
+		//cnt.Reset();
+//		Wait(.1);
+		//c_val=cnt.Get();	
+		//printf("A channle is %d\r",cnt.Get());
+//			printf("count is %f RPM  %d\r",((float)c_val/48.0)*600.0,c_val);
+	
+	
+	}
+}
+
+START_ROBOT_CLASS(RobotDemo);

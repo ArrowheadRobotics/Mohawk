@@ -1,0 +1,267 @@
+DFW status and trace log : Tue Dec 04 18:44:06 2012
+
+18:44:06.108 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+18:44:06.145 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5122
+DFW status and trace log : Tue Dec 04 19:14:11 2012
+
+19:14:11.001 ERROR: Node 'TargetDefns' does not have a child name 'VxWorks6x_10.7.6.2': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+19:14:11.002 ERROR: Node 'TargetDefns' does not have a child name 'VxWorks6x_10.7.6.2'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+19:14:11.009 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+19:14:11.131 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+19:14:11.131 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+19:14:11.255 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+19:14:11.451 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4532
+19:14:12.752 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+19:14:12.752 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+19:14:12.752 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3695
+19:14:12.755 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 535
+19:14:12.774 ERROR: Property not found: ModuleOSManaged
+  Tos Component : SevError(2) : tosobject.cpp : 2488
+19:14:13.269 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 280
+19:14:13.323 WARNING: Object file has minimal debug information: /tmpout/niDiscExp.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.484 WARNING: Object file has minimal debug information: /tmpout/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.694 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.704 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.719 WARNING: Object file has minimal debug information: /tmpout/ws_runtime.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.727 WARNING: Object file has minimal debug information: /tmpout/libespModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.739 WARNING: Object file has minimal debug information: /tmpout/niauth.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.762 WARNING: Object file has minimal debug information: /tmpout/nigmp.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.777 WARNING: Object file has minimal debug information: /tmpout/nilxtcor.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.782 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.816 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.834 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.840 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.870 WARNING: Object file has minimal debug information: /tmpout/logosrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:13.877 WARNING: Object file has minimal debug information: /tmpout/niDiscSvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.142 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.170 WARNING: Object file has minimal debug information: /tmpout/libappweb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.189 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.194 WARNING: Object file has minimal debug information: /tmpout/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.211 WARNING: Object file has minimal debug information: /tmpout/libniauthModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.220 WARNING: Object file has minimal debug information: /tmpout/nilwpce.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.228 WARNING: Object file has minimal debug information: /tmpout/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.238 WARNING: Object file has minimal debug information: /tmpout/niriosrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.244 WARNING: Object file has minimal debug information: /tmpout/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.249 WARNING: Object file has minimal debug information: /tmpout/sysadminsvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.259 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.266 WARNING: Object file has minimal debug information: /tmpout/niPortableRegistry.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.271 WARNING: Object file has minimal debug information: /tmpout/ni_traceengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.278 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.283 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.291 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.297 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.303 WARNING: Object file has minimal debug information: /tmpout/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.308 WARNING: Object file has minimal debug information: /tmpout/niriosae.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.318 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.323 WARNING: Object file has minimal debug information: /tmpout/wif_core.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.327 WARNING: Object file has minimal debug information: /tmpout/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.333 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.339 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.345 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.351 WARNING: Object file has minimal debug information: /tmpout/niSysNetCfg.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.356 WARNING: Object file has minimal debug information: /tmpout/NiViRio.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.363 WARNING: Object file has minimal debug information: /tmpout/FRC_2CANPlugIn.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.370 WARNING: Object file has minimal debug information: /tmpout/nipspxts.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.375 WARNING: Object file has minimal debug information: /tmpout/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.380 WARNING: Object file has minimal debug information: /tmpout/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.385 WARNING: Object file has minimal debug information: /tmpout/niriompc5125k.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.391 WARNING: Object file has minimal debug information: /tmpout/NiViSys.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.396 WARNING: Object file has minimal debug information: /tmpout/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.400 WARNING: Object file has minimal debug information: /tmpout/rtexecsvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.405 WARNING: Object file has minimal debug information: /tmpout/libcopyModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.411 WARNING: Object file has minimal debug information: /tmpout/libdirModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.416 WARNING: Object file has minimal debug information: /tmpout/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.421 WARNING: Object file has minimal debug information: /tmpout/niauthsvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.426 WARNING: Object file has minimal debug information: /tmpout/sysstatepublisher.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.431 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.436 WARNING: Object file has minimal debug information: /tmpout/NiViRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.441 WARNING: Object file has minimal debug information: /tmpout/FilesystemWebService.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.446 WARNING: Object file has minimal debug information: /tmpout/svclocmodule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.451 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.456 WARNING: Object file has minimal debug information: /tmpout/nisysapisvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.461 WARNING: Object file has minimal debug information: /tmpout/RTWebServer.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.465 WARNING: Object file has minimal debug information: /tmpout/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:14:14.469 WARNING: Object file has minimal debug information: /tmpout/NiViAsrl.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:15:49.274 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:15:49.274 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:15:49.274 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:15:49.274 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:31:32.712 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.077 WARNING: Object file has minimal debug information: /tmpout/nilwpce.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.093 WARNING: Object file has minimal debug information: /tmpout/sysstatepublisher.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.124 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.132 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.169 WARNING: Object file has minimal debug information: /tmpout/logosrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.176 WARNING: Object file has minimal debug information: /tmpout/niDiscSvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.473 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.491 WARNING: Object file has minimal debug information: /tmpout/nilxtcor.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.496 WARNING: Object file has minimal debug information: /tmpout/ni_traceengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.522 WARNING: Object file has minimal debug information: /tmpout/libappweb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.540 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.550 WARNING: Object file has minimal debug information: /tmpout/niriosrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.556 WARNING: Object file has minimal debug information: /tmpout/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.559 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.567 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.573 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.577 WARNING: Object file has minimal debug information: /tmpout/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.586 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.589 WARNING: Object file has minimal debug information: /tmpout/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.594 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.599 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.605 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.609 WARNING: Object file has minimal debug information: /tmpout/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.613 WARNING: Object file has minimal debug information: /tmpout/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.616 WARNING: Object file has minimal debug information: /tmpout/niriompc5125k.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.620 WARNING: Object file has minimal debug information: /tmpout/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.628 WARNING: Object file has minimal debug information: /tmpout/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.631 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.635 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.638 WARNING: Object file has minimal debug information: /tmpout/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.673 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.679 WARNING: Object file has minimal debug information: /tmpout/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.686 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:33.919 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:31:33.919 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:31:34.192 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:31:34.192 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+19:31:35.512 WARNING: Object file has minimal debug information: /tmpout/nipspxts.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:35.585 WARNING: Object file has minimal debug information: /tmpout/RTWebServer.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.800 WARNING: Object file has minimal debug information: /tmpout/nigmp.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.834 WARNING: Object file has minimal debug information: /tmpout/libniauthModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.865 WARNING: Object file has minimal debug information: /tmpout/niauth.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.895 WARNING: Object file has minimal debug information: /tmpout/niPortableRegistry.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.917 WARNING: Object file has minimal debug information: /tmpout/libdirModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.942 WARNING: Object file has minimal debug information: /tmpout/libespModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:36.975 WARNING: Object file has minimal debug information: /tmpout/ws_runtime.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:37.289 WARNING: Object file has minimal debug information: /tmpout/libcopyModule.out
+  SevWarning(1) : symbolmanager.cpp : 171
+19:31:37.313 WARNING: Object file has minimal debug information: /tmpout/svcloc
